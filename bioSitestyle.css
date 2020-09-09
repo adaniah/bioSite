@@ -1,0 +1,289 @@
+
+
+
+body {
+    /* https://fonts.google.com/specimen/Meddon?category=Serif,Display,Handwriting&preview.text=Marina&preview.text_type=custom&selection.family=Alex+Brush|Allura|Arapey:ital@0;1|Buenard|Dancing+Script:wght@400;700|Libre+Baskerville:ital,wght@0,400;0,700;1,400|Meddon|Ovo|Parisienne|Pinyon+Script|Rouge+Script&sidebar.open=true */
+
+    font-family: 'Alex Brush', cursive;
+    font-family: 'Allura', cursive;
+    font-family: 'Arapey', serif;
+    font-family: 'Buenard', serif;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Meddon', cursive;
+    font-family: 'Ovo', serif;
+    font-family: 'Parisienne', cursive;
+    font-family: 'Pinyon Script', cursive;
+    font-family: 'Rouge Script', cursive;
+
+    background-color: #F5C3BC;
+    text-align: left;
+}
+
+#page {
+
+    font-family: 'Arapey', serif;
+    font-family: 'Buenard', serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Ovo', serif;
+}
+h1 { 
+    font-family: 'Meddon', cursive;
+    margin: 1%;
+    text-align: center;
+}
+h2 {
+    font-family: 'Dancing Script', cursive;
+    margin: 2%;
+    padding: 1%;
+    background-color: #E89DA2 ;
+}
+h3 {
+    font-family: 'Rouge Script', cursive;
+    margin: auto;
+    background-color: #96D1C7;
+}
+img {
+    padding: 1%;
+}
+/* img#headshot {
+    padding: 7%;
+} */
+p {
+    padding: 0.2em;
+    margin: 4%;
+}
+#headshot {
+    vertical-align: text-top;
+    border: 2px solid #96D1C7;
+    border-radius: 20px;
+
+}
+.steppingstones {
+    font-family: 'Arapey', serif;
+    font-family: 'Buenard', serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Ovo', serif;
+    padding: 1em;
+    margin: 0.5em;
+
+    
+}
+#testimony {
+    background-color: #E89DA2;
+}
+
+.favthings {
+    font-family: 'Arapey', serif;
+    font-family: 'Buenard', serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Ovo', serif;
+    align-self: center;
+    background-color: #AACFCF;
+    padding: 1em;
+    margin: 2em;
+  
+}
+
+.hobbies {
+    font-family: 'Arapey', serif;
+    font-family: 'Buenard', serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Ovo', serif;
+    padding: 1em;
+    margin: 0.2em;
+}
+
+.conclusion {
+    font-family: 'Arapey', serif;
+    font-family: 'Buenard', serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Ovo', serif;
+    background-color: #E89DA2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+#lifestory {
+
+}
+
+#intro {
+
+}
+
+#headshot {
+
+}
+
+
+
+#JesusRocks {
+
+}
+
+#addy&marina {
+
+}
+#picturecollage {
+
+}
+
+#PromQueen {
+
+}
+
+#Teddy {
+
+}
+
+#Yosemite {
+
+}
+
+#Mom&Daughter {
+
+}
+
+# {
+
+}
+
+# {
+
+}
+
+# {
+
+}
+
+# {
+
+}
+
+# {
+
+}
+
+# {
+
+}
+
+# {
+
+}
+
+# {
+
+}
+
+# {
+
+}
+
+#artistry {
+
+}
+
+
+
+#jewelry-making {
+
+}
+
+#music{
+
+}
+
+#musician {
+
+}
+
+#guitar {
+
+}
+
+#bits&bobs {
+
+}
+
+#gardening {
+
+}
+
+#snowie {
+
+}
+
+.encourage {
+
+}
+
+#passions {
+
+}
+
+#wwjd {
+
+}
+
+#parentingskills {
+
+}
+
+#finalbit {
+
+}
+
+
+
+# {
+
+}
+
+# {
+
+}
+
+# {
+
+}
+
+# {
+
+}
+
+# {
+
+ */
