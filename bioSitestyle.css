@@ -1,5 +1,12 @@
 
 
+/* you need to include: header, 
+images with captions, footer, main content section and your external link. 
+You should have a complete template of your site by the end of the week.
+
+At this point, the main HTML page should contain base styling, 
+a header, a footer, a main content section, embedded images, and navigation.  */
+
 
 body {
     /* https://fonts.google.com/specimen/Meddon?category=Serif,Display,Handwriting&preview.text=Marina&preview.text_type=custom&selection.family=Alex+Brush|Allura|Arapey:ital@0;1|Buenard|Dancing+Script:wght@400;700|Libre+Baskerville:ital,wght@0,400;0,700;1,400|Meddon|Ovo|Parisienne|Pinyon+Script|Rouge+Script&sidebar.open=true */
@@ -19,7 +26,20 @@ body {
     background-color: #F5C3BC;
     text-align: left;
 }
+header {
+    
+    text-emphasis: large;
+    padding: 2.5%;
+    margin: 2%;
+    background-color: #E89DA2;
+    border: 2px solid #AACFCF;
+    border-radius: 3%;
+}
+.header {
+    margin-left: 4%;
+    align-self: center;
 
+}
 #page {
 
     font-family: 'Arapey', serif;
@@ -33,31 +53,40 @@ h1 {
     text-align: center;
 }
 h2 {
-    font-family: 'Dancing Script', cursive;
-    margin: 2%;
+    font-family: 'Alex Brush', cursive;
+
+    margin: 0.5%;
     padding: 1%;
-    background-color: #E89DA2 ;
+    background-color: #F5C3BC ;
+    font-size: xx-large;
 }
 h3 {
-    font-family: 'Rouge Script', cursive;
+    font-family: 'Allura', cursive;
     margin: auto;
-    background-color: #96D1C7;
+    background-color: #AACFCF;
 }
 img {
-    padding: 1%;
+    padding: 4%;
 }
 /* img#headshot {
     padding: 7%;
 } */
 p {
-    padding: 0.2em;
+    padding: 1%;
     margin: 4%;
 }
 #headshot {
     vertical-align: text-top;
-    border: 2px solid #96D1C7;
-    border-radius: 20px;
-
+    border: 2px dashed #96D1C7;
+    border-radius: 26%;
+    float: left;
+    padding: 2%;
+}
+#divheadshot {
+    padding-bottom: 0.5%;
+}
+#Marina Ode {
+    padding: 3%;
 }
 .steppingstones {
     font-family: 'Arapey', serif;
@@ -66,11 +95,12 @@ p {
     font-family: 'Ovo', serif;
     padding: 1em;
     margin: 0.5em;
-
-    
 }
 #testimony {
-    background-color: #E89DA2;
+    background-color: #F5C3BC;
+    text-align: right;
+    border: 2px solid #AACFCF ;
+    border-radius: 8%;
 }
 
 .favthings {
@@ -79,10 +109,9 @@ p {
     font-family: 'Libre Baskerville', serif;
     font-family: 'Ovo', serif;
     align-self: center;
-    background-color: #AACFCF;
+    background-color:#F5C3BC
     padding: 1em;
     margin: 2em;
-  
 }
 
 .hobbies {
@@ -99,12 +128,34 @@ p {
     font-family: 'Buenard', serif;
     font-family: 'Libre Baskerville', serif;
     font-family: 'Ovo', serif;
+    background-color: #F5C3BC;
+
+}
+footer {
     background-color: #E89DA2;
+    padding: 1%;
+    margin: 3%;
+}
+.footer {
+    margin-left: 1.5%;
+    
+    text-align: center;
+
 }
 
-
-
-
+a:link {
+ text-decoration: none;
+ color:#F5C3BC;
+}
+a:visited {
+    color: #F5C3BC
+}
+a:hover {
+    color: #F5C3BC;
+}
+a:active {
+    color: #96D1C7;
+}
 
 
 
