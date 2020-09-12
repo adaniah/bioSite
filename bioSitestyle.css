@@ -23,7 +23,7 @@ body {
     font-family: 'Pinyon Script', cursive;
     font-family: 'Rouge Script', cursive;
 
-    background-color: #F5C3BC;
+    background-color: #F1D4D4;
     text-align: left;
 }
 header {
@@ -31,8 +31,8 @@ header {
     text-emphasis: large;
     padding: 2.5%;
     margin: 2%;
-    background-color: #E89DA2;
-    border: 2px solid #AACFCF;
+    background-color: #484C7F;
+    border: 2px solid;
     border-radius: 3%;
 }
 .header {
@@ -57,13 +57,13 @@ h2 {
 
     margin: 0.5%;
     padding: 1%;
-    background-color: #F5C3BC ;
+    background-color: #F1D4D4 ;
     font-size: xx-large;
 }
 h3 {
     font-family: 'Allura', cursive;
     margin: auto;
-    background-color: #AACFCF;
+    background-color: #F1D4D4
 }
 img {
     padding: 4%;
@@ -77,7 +77,7 @@ p {
 }
 #headshot {
     vertical-align: text-top;
-    border: 2px dashed #96D1C7;
+    border: 2px dashed #AC8DAF;
     border-radius: 26%;
     float: left;
     padding: 2%;
@@ -97,9 +97,9 @@ p {
     margin: 0.5em;
 }
 #testimony {
-    background-color: #F5C3BC;
+    background-color: #DDB6C6;
     text-align: right;
-    border: 2px solid #AACFCF ;
+    border: 2px solid;
     border-radius: 8%;
 }
 
@@ -109,7 +109,7 @@ p {
     font-family: 'Libre Baskerville', serif;
     font-family: 'Ovo', serif;
     align-self: center;
-    background-color:#F5C3BC
+    background-color:#F1D4D4
     padding: 1em;
     margin: 2em;
 }
@@ -122,17 +122,21 @@ p {
     padding: 1em;
     margin: 0.2em;
 }
+#biblestudywords {
+    float: left;
+    align-self: center;
+}
 
 .conclusion {
     font-family: 'Arapey', serif;
     font-family: 'Buenard', serif;
     font-family: 'Libre Baskerville', serif;
     font-family: 'Ovo', serif;
-    background-color: #F5C3BC;
+    background-color: #F1D4D4;
 
 }
 footer {
-    background-color: #E89DA2;
+    background-color: #484C7F;
     padding: 1%;
     margin: 3%;
 }
@@ -145,16 +149,16 @@ footer {
 
 a:link {
  text-decoration: none;
- color:#F5C3BC;
+ color:#AC8DAF;
 }
 a:visited {
-    color: #F5C3BC
+    color: #AC8DAF
 }
 a:hover {
-    color: #F5C3BC;
+    color: #F1D4D4;
 }
 a:active {
-    color: #96D1C7;
+    color: #AC8DAF;
 }
 
 
