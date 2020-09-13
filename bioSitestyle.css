@@ -25,6 +25,7 @@ body {
 
     background-color: #F1D4D4;
     text-align: left;
+    position: relative;
 }
 header {
     
@@ -36,8 +37,8 @@ header {
     border-radius: 3%;
 }
 .header {
-    margin-left: 4%;
-    align-self: center;
+    margin-right: 4%;
+    display: inline;
 
 }
 #page {
@@ -63,7 +64,8 @@ h2 {
 h3 {
     font-family: 'Allura', cursive;
     margin: auto;
-    background-color: #F1D4D4
+    background-color: #F1D4D4;
+    text-emphasis: xx-large;
 }
 img {
     padding: 4%;
@@ -78,7 +80,7 @@ p {
 #headshot {
     vertical-align: text-top;
     border: 2px dashed #AC8DAF;
-    border-radius: 26%;
+    border-radius: 32%;
     float: left;
     padding: 2%;
 }
@@ -87,6 +89,9 @@ p {
 }
 #Marina Ode {
     padding: 3%;
+}
+#calpoly {
+    float: right;
 }
 .steppingstones {
     font-family: 'Arapey', serif;
@@ -122,6 +127,10 @@ p {
     padding: 1em;
     margin: 0.2em;
 }
+#gardening {
+    text-align: center;
+}
+
 #biblestudywords {
     float: left;
     align-self: center;
@@ -293,9 +302,6 @@ a:active {
 
 }
 
-#gardening {
-
-}
 
 #snowie {
 
