@@ -28,19 +28,25 @@ body {
     position: relative;
 }
 header {
-    
     text-emphasis: large;
     padding: 2.5%;
-    margin: 2%;
+    margin: 1.7%;
     background-color: #484C7F;
     border: 2px solid;
-    border-radius: 3%;
+    border-radius: 4%;
 }
 .header {
-    margin-right: 4%;
     display: inline;
+    margin-left: 1%;
+    padding-right: 1.5%;
+    text-align: center;
 
 }
+
+ol {
+    display: inline;
+}
+
 #page {
 
     font-family: 'Arapey', serif;
@@ -50,7 +56,7 @@ header {
 }
 h1 { 
     font-family: 'Meddon', cursive;
-    margin: 1%;
+    margin: 0.2%;
     text-align: center;
 }
 h2 {
@@ -68,14 +74,39 @@ h3 {
     text-emphasis: xx-large;
 }
 img {
-    padding: 4%;
+    padding: 2.5%;
+}
+.align-right {
+    float: right;
+    margin-left: 10px;
+    width: 45%;
+    padding: 1.5%;
+    vertical-align: text-top;
+    
+}
+/* .imgcenter {
+    float: inline-end;
+    min-width: 20%;
+    max-width: 45%;
+} */
+/* adding img before . messes it up?? */
+.align-left {
+    float: left;
+    margin-right: 10px;
+    width: 45%;
+    padding: 1.5%;
+    vertical-align: text-bottom;
+}
+img.medium {
+    width: 250px;
+    height: 250px;
 }
 /* img#headshot {
     padding: 7%;
 } */
 p {
     padding: 1%;
-    margin: 4%;
+    margin: 3%;
 }
 #headshot {
     vertical-align: text-top;
@@ -83,6 +114,7 @@ p {
     border-radius: 32%;
     float: left;
     padding: 2%;
+    margin: 4%;
 }
 #divheadshot {
     padding-bottom: 0.5%;
@@ -92,20 +124,26 @@ p {
 }
 #calpoly {
     float: right;
+    margin: 2%;
+    padding: 2%;
 }
 .steppingstones {
     font-family: 'Arapey', serif;
     font-family: 'Buenard', serif;
     font-family: 'Libre Baskerville', serif;
     font-family: 'Ovo', serif;
-    padding: 1em;
-    margin: 0.5em;
+    padding-left: 3%;
+    margin: 1%;
 }
 #testimony {
     background-color: #DDB6C6;
     text-align: right;
     border: 2px solid;
     border-radius: 8%;
+}
+#picturecollage {
+    margin: 2%;
+    padding-bottom: 2%;
 }
 
 .favthings {
@@ -114,27 +152,78 @@ p {
     font-family: 'Libre Baskerville', serif;
     font-family: 'Ovo', serif;
     align-self: center;
-    background-color:#F1D4D4
+    background-color:#F1D4D4;
     padding: 1em;
     margin: 2em;
 }
-
+#artistry {
+    margin: 3%;
+    padding-top: 5%;
+}
 .hobbies {
     font-family: 'Arapey', serif;
     font-family: 'Buenard', serif;
     font-family: 'Libre Baskerville', serif;
     font-family: 'Ovo', serif;
-    padding: 1em;
-    margin: 0.2em;
+    padding: 1%;
+    margin: 2%;
+    vertical-align: middle;
+
 }
 #gardening {
     text-align: center;
+    float: left;
+}
+#jewelry-making {
+    margin: 2%;
+    padding: 2%;
+}
+
+#music{
+    margin: 2%;
+    padding: 2%;
+    text-align: left;
+    float: left;
+}
+
+#music {
+    margin: 2%;
+    padding: 2%;
+    float: left;
+}
+
+/* #guitar {
+    margin: 2%;
+    padding: 2%;
+} */
+
+.gardening {
+    margin: 2%;
+    padding: 2%;
+    float: left;
+}
+#decorating {
+    margin: 2%;
+    padding: 2%;
+    float: left;
+}
+
+.encourage {
+    margin: 5%;
+    padding: 2%;
+    float: left;
 }
 
 #biblestudywords {
     float: left;
     align-self: center;
+    vertical-align: text-top;
+    text-align: start;
+
 }
+/* #finalbit {
+    float: left;
+} */
 
 .conclusion {
     font-family: 'Arapey', serif;
@@ -142,16 +231,18 @@ p {
     font-family: 'Libre Baskerville', serif;
     font-family: 'Ovo', serif;
     background-color: #F1D4D4;
+    float: left;
 
 }
 footer {
     background-color: #484C7F;
-    padding: 1%;
-    margin: 3%;
+    
+    /* padding: 1%;
+    margin: 3%; */
 }
 .footer {
-    margin-left: 1.5%;
-    
+    margin-left: .60%;
+    padding-right: 1.5%;
     text-align: center;
 
 }
@@ -220,9 +311,7 @@ a:active {
 #addy&marina {
 
 }
-#picturecollage {
 
-}
 
 #PromQueen {
 
@@ -276,31 +365,11 @@ a:active {
 
 }
 
-#artistry {
-
-}
 
 
 
-#jewelry-making {
 
-}
 
-#music{
-
-}
-
-#musician {
-
-}
-
-#guitar {
-
-}
-
-#bits&bobs {
-
-}
 
 
 #snowie {
