@@ -35,16 +35,25 @@ header {
     border: 2px solid;
     border-radius: 4%;
 }
-.header {
+ul {
+    list-style-type: none;
+    
+}
+li {
     display: inline;
+    vertical-align: center;
+}
+.header {
+    
     margin-left: 1%;
     padding-right: 1.5%;
     text-align: center;
 
 }
 
-ol {
-    display: inline;
+#calpoly {
+    margin: 3%;
+    padding: 4%;
 }
 
 #page {
@@ -74,7 +83,8 @@ h3 {
     text-emphasis: xx-large;
 }
 img {
-    padding: 2.5%;
+    padding: 1.5%;
+    margin: 0.5%;
 }
 .align-right {
     float: right;
@@ -84,12 +94,21 @@ img {
     vertical-align: text-top;
     
 }
+h2#interests {
+    text-align: center;
+    vertical-align: center;
+}
 /* .imgcenter {
     float: inline-end;
     min-width: 20%;
     max-width: 45%;
 } */
 /* adding img before . messes it up?? */
+
+/* .favthings {
+    border: 2px thin #AC8DAF;
+    border-radius: 32%;
+} */
 .align-left {
     float: left;
     margin-right: 10px;
@@ -107,6 +126,9 @@ img.medium {
 p {
     padding: 1%;
     margin: 3%;
+}
+p.pright{
+    float: right;
 }
 #headshot {
     vertical-align: text-top;
@@ -147,18 +169,19 @@ p {
 }
 
 .favthings {
-    font-family: 'Arapey', serif;
-    font-family: 'Buenard', serif;
-    font-family: 'Libre Baskerville', serif;
-    font-family: 'Ovo', serif;
+    
     align-self: center;
     background-color:#F1D4D4;
-    padding: 1em;
-    margin: 2em;
+    padding: 1%;
+    margin: 2%;
 }
 #artistry {
     margin: 3%;
     padding-top: 5%;
+}
+#hobbiesdecor {
+    border: 2px solid #AC8DAF;
+    border-radius: 30%;
 }
 .hobbies {
     font-family: 'Arapey', serif;
@@ -168,7 +191,9 @@ p {
     padding: 1%;
     margin: 2%;
     vertical-align: middle;
-
+}
+ul.hobbies {
+    list-style-type: disc;
 }
 #gardening {
     text-align: center;
@@ -235,6 +260,7 @@ p {
 
 }
 footer {
+    
     background-color: #484C7F;
     
     /* padding: 1%;
@@ -246,13 +272,22 @@ footer {
     text-align: center;
 
 }
+ul.footer {
+    list-style-type: none;
+    
+}
+li.footer {
+    display: inline;
+    vertical-align: center;
+}
 
 a:link {
- text-decoration: none;
- color:#AC8DAF;
+    text-decoration: none;
+    color: #AC8DAF;
 }
+    
 a:visited {
-    color: #AC8DAF
+    color: #AC8DAF;
 }
 a:hover {
     color: #F1D4D4;
