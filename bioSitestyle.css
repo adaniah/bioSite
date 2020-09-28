@@ -28,6 +28,10 @@ body {
     position: relative;
 }
 #page-container {
+    font-family: 'Arapey', serif;
+    font-family: 'Buenard', serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Ovo', serif;
     position: relative;
     min-height: 100vh;
 }
@@ -35,7 +39,7 @@ body {
     padding-bottom: 2.5rem;
 }
 header {
-    text-emphasis: large;
+    
     padding: 2.5%;
     margin: 1.7%;
     background-color: #484C7F;
@@ -63,21 +67,15 @@ li {
     padding: 4%;
 }
 
-#page {
-
-    font-family: 'Arapey', serif;
-    font-family: 'Buenard', serif;
-    font-family: 'Libre Baskerville', serif;
-    font-family: 'Ovo', serif;
-}
 h1 { 
     font-family: 'Meddon', cursive;
     margin: 0.2%;
     text-align: center;
+    
 }
 h2 {
     font-family: 'Alex Brush', cursive;
-
+    font-weight: 800;
     margin: 0.5%;
     padding: 1%;
     background-color: #F1D4D4 ;
@@ -87,11 +85,14 @@ h3 {
     font-family: 'Allura', cursive;
     margin: auto;
     background-color: #F1D4D4;
-    text-emphasis: xx-large;
+    font-weight: 600;
+    font-size: x-large;
+    
 }
 img {
     padding: 1.5%;
     margin: 0.5%;
+    image-rendering: auto;
 }
 .align-right {
     float: right;
@@ -173,6 +174,8 @@ p.pright{
 #picturecollage {
     margin: 2%;
     padding-bottom: 2%;
+    border: 2px solid #AC8DAF;
+    border-radius: 15%;
 }
 
 .favthings {
@@ -188,15 +191,15 @@ p.pright{
 }
 #hobbiesdecor {
     border: 2px solid #AC8DAF;
-    border-radius: 30%;
+    border-radius: 10%;
 }
 .hobbies {
     font-family: 'Arapey', serif;
     font-family: 'Buenard', serif;
     font-family: 'Libre Baskerville', serif;
     font-family: 'Ovo', serif;
-    padding: 1%;
-    margin: 2%;
+    /* padding: 1%;
+    margin: 2%; */
     vertical-align: middle;
 }
 ul.hobbies {
@@ -269,16 +272,16 @@ ul.hobbies {
 footer {
     
     background-color: #484C7F;
-    margin-left: .60%;
-    padding-right: 1.5%;
+    /* margin-left: .60%;
+    padding-right: 1.5%; */
     text-align: center;
-    /* padding: 1%;
-    margin: 3%; */
+    
 }
 .footer {
     position: absolute;
     bottom: 0;
-    width: 50%;
+    max-width: 100%;
+    min-width: 75%;
     height: 2.5rem;
 
 }
