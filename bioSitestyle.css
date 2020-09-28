@@ -25,7 +25,7 @@ body {
 
     background-color: #F1D4D4;
     text-align: left;
-    position: relative;
+    
 }
 #page-container {
     font-family: 'Arapey', serif;
@@ -208,7 +208,7 @@ p.pright{
     margin: 2%;
     vertical-align: middle;
 }
-#mary&martha {
+#mary-martha {
     font-family: 'Arapey', serif;
     font-family: 'Buenard', serif;
     font-family: 'Libre Baskerville', serif;
