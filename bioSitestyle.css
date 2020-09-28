@@ -25,6 +25,8 @@ body {
 
     background-color: #F1D4D4;
     text-align: left;
+    height: auto;
+    width: auto;
     
 }
 #page-container {
@@ -62,6 +64,7 @@ li {
 
 }
 
+
 #calpoly {
     margin: 3%;
     padding: 4%;
@@ -83,7 +86,7 @@ h2 {
 }
 h3 {
     font-family: 'Allura', cursive;
-    margin: auto;
+    margin: 1%;
     background-color: #F1D4D4;
     font-weight: 600;
     font-size: x-large;
@@ -149,9 +152,7 @@ p.pright{
 #divheadshot {
     padding-bottom: 0.5%;
 }
-#Marina Ode {
-    padding: 3%;
-}
+
 #calpoly {
     float: right;
     margin: 2%;
@@ -164,6 +165,7 @@ p.pright{
     font-family: 'Ovo', serif;
     padding-left: 3%;
     margin: 1%;
+    margin-bottom: 3%;
 }
 #testimony {
     background-color: #DDB6C6;
@@ -198,7 +200,7 @@ p.pright{
 #hobbiesdecor {
     padding: 2%;
     margin: 5%;
-    border: 2px solid #AC8DAF;
+    background-color: #AC8DAF;
     border-radius: 10%;
     display: inline;
     
@@ -221,56 +223,64 @@ p.pright{
 ul.hobbies {
     list-style-type: disc;
 }
-#gardening {
+/* #gardening {
     text-align: center;
     float: left;
-}
+} */
 #jewelry-making {
     margin: 2%;
     padding: 2%;
-    padding-right: 15%;
-}
-
-#music{
-    margin: 2%;
-    padding: 2%;
-    text-align: left;
-    float: left;
+    border: 2px solid #484C7F;
+    border-radius: 10%;
+    height: 90%;
 }
 
 #music {
     margin: 2%;
     padding: 2%;
+    text-align: left;
     float: left;
+    border: 2px solid #AC8DAF;
+    border-radius: 10%;
 }
+
 
 /* #guitar {
     margin: 2%;
     padding: 2%;
 } */
 
-.gardening {
+#bits-bobs {
     margin: 2%;
     padding: 2%;
+    border: 2px solid #484C7F;
+    border-radius: 10%;
+    height: 90%;
+    float: right;
     
 }
 #decorating {
     margin: 2%;
     padding: 2%;
     float: left;
+    border: 2px solid #AC8DAF;
+    border-radius: 10%;
 }
 
-.encourage {
+/* .encourage {
     margin: 5%;
     padding: 2%;
     float: left;
-}
+} */
 
 #biblestudywords {
     float: left;
     align-self: center;
     vertical-align: text-top;
     text-align: start;
+    border: 2px solid #484C7F;
+    border-radius: 10%;
+    padding: 3%;
 
 }
 /* #finalbit {
@@ -295,7 +305,7 @@ footer {
     
 }
 .footer {
-    position: absolute;
+    clear: both;
     bottom: 0;
     max-width: 100%;
     min-width: 75%;
@@ -304,6 +314,7 @@ footer {
 }
 ul.footer {
     list-style-type: none;
+    padding: 3%;
     
 }
 li.footer {
