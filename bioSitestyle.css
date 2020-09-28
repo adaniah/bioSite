@@ -170,8 +170,14 @@ p.pright{
     text-align: right;
     border: 2px solid;
     border-radius: 8%;
+    margin: 3%;
+    padding: 4%;
 }
 #picturecollage {
+    font-family: 'Arapey', serif;
+    font-family: 'Buenard', serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Ovo', serif;
     margin: 2%;
     padding-bottom: 2%;
     border: 2px solid #AC8DAF;
@@ -189,18 +195,24 @@ p.pright{
     margin: 3%;
     padding-top: 5%;
 }
-#hobbiesdecor {
+/* #hobbiesdecor {
     border: 2px solid #AC8DAF;
     border-radius: 10%;
-}
+} */
 .hobbies {
     font-family: 'Arapey', serif;
     font-family: 'Buenard', serif;
     font-family: 'Libre Baskerville', serif;
     font-family: 'Ovo', serif;
-    /* padding: 1%;
-    margin: 2%; */
+    padding: 1%;
+    margin: 2%;
     vertical-align: middle;
+}
+#mary&martha {
+    font-family: 'Arapey', serif;
+    font-family: 'Buenard', serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Ovo', serif;
 }
 ul.hobbies {
     list-style-type: disc;
@@ -212,6 +224,7 @@ ul.hobbies {
 #jewelry-making {
     margin: 2%;
     padding: 2%;
+    padding-right: 15%;
 }
 
 #music{
@@ -235,7 +248,7 @@ ul.hobbies {
 .gardening {
     margin: 2%;
     padding: 2%;
-    float: left;
+    
 }
 #decorating {
     margin: 2%;
