@@ -11,29 +11,27 @@ a header, a footer, a main content section, embedded images, and navigation.  */
 body {
     /* https://fonts.google.com/specimen/Meddon?category=Serif,Display,Handwriting&preview.text=Marina&preview.text_type=custom&selection.family=Alex+Brush|Allura|Arapey:ital@0;1|Buenard|Dancing+Script:wght@400;700|Libre+Baskerville:ital,wght@0,400;0,700;1,400|Meddon|Ovo|Parisienne|Pinyon+Script|Rouge+Script&sidebar.open=true */
 
-    font-family: 'Alex Brush', cursive;
-    font-family: 'Allura', cursive;
+    /* font-family: 'Alex Brush', cursive;
+    font-family: 'Allura', cursive; */
     font-family: 'Arapey', serif;
     font-family: 'Buenard', serif;
-    font-family: 'Dancing Script', cursive;
+    /* font-family: 'Dancing Script', cursive; */
     font-family: 'Libre Baskerville', serif;
-    font-family: 'Meddon', cursive;
+    /* font-family: 'Meddon', cursive; */
     font-family: 'Ovo', serif;
-    font-family: 'Parisienne', cursive;
+    /* font-family: 'Parisienne', cursive;
     font-family: 'Pinyon Script', cursive;
-    font-family: 'Rouge Script', cursive;
+    font-family: 'Rouge Script', cursive; */
 
     background-color: #F1D4D4;
     text-align: left;
     height: auto;
     width: auto;
+    margin: 0%;
     
 }
 #page-container {
-    font-family: 'Arapey', serif;
-    font-family: 'Buenard', serif;
-    font-family: 'Libre Baskerville', serif;
-    font-family: 'Ovo', serif;
+    
     position: relative;
     min-height: 100vh;
 }
@@ -97,10 +95,10 @@ img {
     margin: 0.5%;
     image-rendering: auto;
 }
-.align-right {
+.picturecolumn1of2 {
     float: right;
-    margin-left: 10px;
-    width: 45%;
+    margin: 10px;
+    width: 600px;
     padding: 1.5%;
     vertical-align: text-top;
     
@@ -120,17 +118,17 @@ h2#interests {
     border: 2px thin #AC8DAF;
     border-radius: 32%;
 } */
-.align-left {
+.picturecolumn2of2 {
     float: left;
-    margin-right: 10px;
-    width: 45%;
+    margin: 10px;
+    width: 600px;
     padding: 1.5%;
     vertical-align: text-bottom;
 }
-img.medium {
+/* img.medium {
     width: 250px;
     height: 250px;
-}
+} */
 /* img#headshot {
     padding: 7%;
 } */
@@ -138,9 +136,7 @@ p {
     padding: 1%;
     margin: 3%;
 }
-p.pright{
-    float: right;
-}
+
 #headshot {
     vertical-align: text-top;
     border: 2px dashed #AC8DAF;
@@ -159,10 +155,7 @@ p.pright{
     padding: 2%;
 }
 .steppingstones {
-    font-family: 'Arapey', serif;
-    font-family: 'Buenard', serif;
-    font-family: 'Libre Baskerville', serif;
-    font-family: 'Ovo', serif;
+    
     padding-left: 3%;
     margin: 1%;
     margin-bottom: 3%;
@@ -176,10 +169,7 @@ p.pright{
     padding: 4%;
 }
 #picturecollage {
-    font-family: 'Arapey', serif;
-    font-family: 'Buenard', serif;
-    font-family: 'Libre Baskerville', serif;
-    font-family: 'Ovo', serif;
+    
     margin: 2%;
     padding-bottom: 2%;
     border: 2px solid #AC8DAF;
@@ -197,42 +187,41 @@ p.pright{
     margin: 3%;
     padding-top: 5%;
 }
-#hobbiesdecor {
+.hobbiesdecor {
     padding: 2%;
-    margin: 5%;
+    margin: 2%;
     background-color: #AC8DAF;
     border-radius: 10%;
-    display: inline;
+    clear: both;
     
 }
+.hobbiescolumn1of3, .hobbiescolumn2of3, .hobbiescolumn3of3 {
+    float: left;
+    margin: 10px;
+    width: 300px;
+    padding: 1.5%;
+    vertical-align: text-bottom;
+}
 .hobbies {
-    font-family: 'Arapey', serif;
-    font-family: 'Buenard', serif;
-    font-family: 'Libre Baskerville', serif;
-    font-family: 'Ovo', serif;
+    
     padding: 1%;
     margin: 2%;
     vertical-align: middle;
 }
-#mary-martha {
-    font-family: 'Arapey', serif;
-    font-family: 'Buenard', serif;
-    font-family: 'Libre Baskerville', serif;
-    font-family: 'Ovo', serif;
-}
+
 ul.hobbies {
     list-style-type: disc;
 }
-/* #gardening {
+#gardening {
     text-align: center;
     float: left;
-} */
+}
 #jewelry-making {
     margin: 2%;
     padding: 2%;
     border: 2px solid #484C7F;
     border-radius: 10%;
-    height: 90%;
+    clear: both;
 }
 
 #music {
@@ -249,7 +238,13 @@ ul.hobbies {
     margin: 2%;
     padding: 2%;
 } */
-
+.gemcolumn1of2, .gemcolumn2of2 {
+    float: right;
+    margin: 10px;
+    width: 500px;
+    padding: 1.5%;
+    
+}
 #bits-bobs {
     margin: 2%;
     padding: 2%;
