@@ -98,41 +98,26 @@ img {
     margin: 10px;
     width: 600px;
     padding: 1.5%;
-    vertical-align: text-top;
+    vertical-align: text-bottom;
+    text-align: right;
     
 }
 h2#interests {
     text-align: center;
     vertical-align: center;
 }
-/* .imgcenter {
-    float: inline-end;
-    min-width: 20%;
-    max-width: 45%;
-} */
-/* adding img before . messes it up?? */
 
-/* .favthings {
-    border: 2px thin #AC8DAF;
-    border-radius: 32%;
-} */
 .picturecolumn2of2 {
     float: left;
     margin: 10px;
     width: 600px;
     padding: 1.5%;
-    vertical-align: text-bottom;
+    vertical-align: text-top;
 }
-/* img.medium {
-    width: 250px;
-    height: 250px;
-} */
-/* img#headshot {
-    padding: 7%;
-} */
+
 p {
     padding: 1%;
-    margin: 3%;
+    margin: 1%;
 }
 
 #headshot {
@@ -145,6 +130,9 @@ p {
 }
 #divheadshot {
     padding-bottom: 0.5%;
+}
+#aboutmarina {
+    text-align: left;
 }
 
 #calpoly {
@@ -165,6 +153,10 @@ p {
     border-radius: 8%;
     margin: 3%;
     padding: 4%;
+}
+#salvation {
+    text-align: right;
+    padding-right: 4%;
 }
 #picturecollage {
     
@@ -221,13 +213,15 @@ ul.hobbies {
     border-radius: 10%;
     clear: both;
 }
-
+a.jewelrylink.hover {
+    color: #484C7F;
+}
 #music {
     margin: 2%;
     padding: 2%;
     text-align: left;
     float: left;
-    border: 2px solid #AC8DAF;
+    border: 2px solid #484C7F;
     border-radius: 10%;
 }
 
@@ -239,14 +233,14 @@ ul.hobbies {
 .gemcolumn1of2, .gemcolumn2of2 {
     float: right;
     margin: 10px;
-    width: 500px;
+    width: 475px;
     padding: 1.5%;
     
 }
 #bits-bobs {
     margin: 2%;
     padding: 2%;
-    border: 2px solid #484C7F;
+    border: 2px solid #AC8DAF;
     border-radius: 10%;
     height: 90%;
     float: right;
@@ -256,7 +250,7 @@ ul.hobbies {
     margin: 2%;
     padding: 2%;
     float: left;
-    border: 2px solid #AC8DAF;
+    border: 2px solid #484C7F;
     border-radius: 10%;
 }
 
@@ -347,7 +341,17 @@ a:active {
 
 
 
+/* .imgcenter {
+    float: inline-end;
+    min-width: 20%;
+    max-width: 45%;
+} */
+/* adding img before . messes it up?? */
 
+/* .favthings {
+    border: 2px thin #AC8DAF;
+    border-radius: 32%;
+} */
 
 
 
