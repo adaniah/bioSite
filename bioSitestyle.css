@@ -24,7 +24,7 @@ body {
     font-family: 'Rouge Script', cursive; */
 
     background-color: #F1D4D4;
-    text-align: left;
+    
     height: auto;
     width: auto;
     margin: 0%;
@@ -49,7 +49,9 @@ header {
 }
 ul {
     list-style-type: none;
-    
+    /* position: fixed;
+    top: 0; */
+
 }
 li {
     display: inline;
@@ -59,39 +61,43 @@ li {
     
     margin: 1%;
     padding: 1%;
-    
-    
-
+    /* position: fixed;
+    z-index: 10; */
+    /* trying to add a fixed nav bar but i get jarbald words instead */
+    font-size: xx-large;
+    font-family: 'Alex Brush', cursive;
 }
 
 h1 { 
     font-family: 'Meddon', cursive;
-    margin: 0.2%;
-    text-align: center
+    margin: 0.2%;;
+    text-align: center;
     
 }
 h2 {
-    font-family: 'Alex Brush', cursive;
+    font-family: 'Parisienne', cursive;
     font-weight: 800;
     margin: 0.5%;
     padding: 1%;
     background-color: #F1D4D4 ;
     font-size: xx-large;
     text-align: center;
+    border-radius: 20%;
 }
 h3 {
-    font-family: 'Allura', cursive;
+    font-family: 'Rouge Script', cursive; 
     margin: 1%;
     background-color: #F1D4D4;
     font-weight: 600;
     font-size: x-large;
     text-align: center;
-    
+    border-radius: 10%;
 }
 img {
     padding: 1.5%;
-    margin: 0.5%;
+    margin: 1.5%;
     image-rendering: auto;
+    align-self: center;
 }
 .picturecolumn1of2 {
     float: right;
@@ -159,7 +165,7 @@ p {
     padding-right: 4%;
 }
 #picturecollage {
-    
+    clear: both;
     margin: 2%;
     padding-bottom: 2%;
     border: 2px solid #AC8DAF;
@@ -178,12 +184,19 @@ p {
     padding-top: 5%;
 }
 .hobbiesdecor {
-    padding: 2%;
-    margin: 2%;
+    padding: 1%;
+    margin: 1%;
     background-color: #AC8DAF;
-    border-radius: 10%;
+    border-radius: 20%;
     clear: both;
+    text-align: center;
     
+}
+#mary-martha {
+    background-color: #AC8DAF;
+}
+#flourish {
+    font-size: large;
 }
 .hobbiescolumn1of3, .hobbiescolumn2of3, .hobbiescolumn3of3 {
     float: left;
@@ -213,7 +226,7 @@ ul.hobbies {
     border-radius: 10%;
     clear: both;
 }
-a.jewelrylink.hover {
+a:jewelrylink.hover {
     color: #484C7F;
 }
 #music {
@@ -321,7 +334,7 @@ a:hover {
     color: #F1D4D4;
 }
 a:active {
-    color: #AC8DAF;
+    color: #F1D4D4;
 }
 
 
