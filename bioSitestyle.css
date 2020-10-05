@@ -38,10 +38,7 @@ body {
 #content-wrap {
     padding-bottom: 2.5rem;
 }
-header {
-    
-   
-}
+
 ul {
     list-style-type: none;
     /* position: fixed;
@@ -53,12 +50,11 @@ li {
     vertical-align: center;
 }
 nav {
-    padding: 3%;
+    padding: .2%;
     margin: 1.7%;
     background-color: #484C7F;
-    opacity: 0.7;
-    border: 2px solid;
-    border-radius: 100%;
+    opacity: 0.5;
+    
     text-align: center;
     /* margin: 1%;
     padding: 1%; */
@@ -67,13 +63,14 @@ nav {
     /* trying to add a fixed nav bar but i get jarbald words instead */
     font-size: xx-large;
     font-family: 'Alex Brush', cursive;
+    width: 100%;
 }
+
 
 h1 { 
     font-family: 'Meddon', cursive;
     margin: 0.2%;;
     text-align: center;
-   
 }
 h2 {
     font-family: 'Parisienne', cursive;
@@ -84,7 +81,7 @@ h2 {
     font-size: xx-large;
     text-align: center;
     border-radius: 20%;
-     text-decoration-line: wavy;
+    text-decoration-line: wavy;
 }
 h3 {
     font-family: 'Rouge Script', cursive; 
@@ -258,8 +255,8 @@ ul.hobbies {
     padding: 2%;
     border: 2px dashed #AC8DAF;
     border-radius: 10%;
-    height: 90%;
-    float: right;
+    
+    
     
 }
 #decorating {
