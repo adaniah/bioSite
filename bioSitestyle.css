@@ -26,51 +26,52 @@ body {
     background-color: #F1D4D4;
     
     height: auto;
-    width: auto;
-    margin: 0%;
-    
+    width: 100%; 
+    margin: auto;
+   
 }
 #page-container {
     
     position: relative;
     min-height: 100vh;
 }
-#content-wrap {
+/* #content-wrap {
     padding-bottom: 2.5rem;
-}
+} */
 
 ul {
     list-style-type: none;
-    /* position: fixed;
-    top: 0; */
-
+    
 }
 li {
     display: inline;
     vertical-align: center;
+    padding: 4%;
+}
+li.navbar {
+    font-family: 'Alex Brush', cursive;
 }
 nav {
-    padding: .2%;
-    margin: 1.7%;
+    padding: 1%;
+    margin: 0;
     background-color: #484C7F;
     opacity: 0.5;
-    
+    /* top: 10px; */
     text-align: center;
-    /* margin: 1%;
-    padding: 1%; */
+    /* height: 10px; */
     position: fixed;
-    /* z-index: 10; */
-    /* trying to add a fixed nav bar but i get jarbald words instead */
+
     font-size: xx-large;
-    font-family: 'Alex Brush', cursive;
+    
     width: 100%;
 }
 
 
 h1 { 
     font-family: 'Meddon', cursive;
-    margin: 0.2%;;
+    margin: 0;
     text-align: center;
+
 }
 h2 {
     font-family: 'Parisienne', cursive;
@@ -101,7 +102,7 @@ img {
 .picturecolumn1of2 {
     float: right;
     margin: 10px;
-    width: 600px;
+    width: 500px;
     padding: 1.5%;
     vertical-align: text-bottom;
     text-align: right;
@@ -135,7 +136,7 @@ p {
     margin-bottom: 3%;
 }
 #divheadshot {
-    padding-bottom: 0.5%;
+    padding-bottom: 5%;
 }
 #aboutmarina {
     text-align: left;
@@ -168,8 +169,9 @@ p {
     clear: both;
     margin: 2%;
     padding-bottom: 2%;
-    border: 2px solid #AC8DAF;
-    border-radius: 15%;
+    /* border: 2px solid #AC8DAF;
+    border-radius: 15%; */
+    height: 100%;
 }
 
 .favthings {
@@ -426,93 +428,5 @@ a:active {
 
 #Mom&Daughter {
 
-}
-
-# {
-
-}
-
-# {
-
-}
-
-# {
-
-}
-
-# {
-
-}
-
-# {
-
-}
-
-# {
-
-}
-
-# {
-
-}
-
-# {
-
-}
-
-# {
-
-}
 
 
-
-
-
-
-
-
-#snowie {
-
-}
-
-.encourage {
-
-}
-
-#passions {
-
-}
-
-#wwjd {
-
-}
-
-#parentingskills {
-
-}
-
-#finalbit {
-
-}
-
-
-
-# {
-
-}
-
-# {
-
-}
-
-# {
-
-}
-
-# {
-
-}
-
-# {
-
- */
