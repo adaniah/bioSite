@@ -1,61 +1,53 @@
 
-
-/* you need to include: header, 
-images with captions, footer, main content section and your external link. 
-You should have a complete template of your site by the end of the week.
-
-At this point, the main HTML page should contain base styling, 
-a header, a footer, a main content section, embedded images, and navigation.  */
-
-
 body {
     /* https://fonts.google.com/specimen/Meddon?category=Serif,Display,Handwriting&preview.text=Marina&preview.text_type=custom&selection.family=Alex+Brush|Allura|Arapey:ital@0;1|Buenard|Dancing+Script:wght@400;700|Libre+Baskerville:ital,wght@0,400;0,700;1,400|Meddon|Ovo|Parisienne|Pinyon+Script|Rouge+Script&sidebar.open=true */
 
-    /* font-family: 'Alex Brush', cursive;
-    font-family: 'Allura', cursive; */
     font-family: 'Arapey', serif;
     font-family: 'Buenard', serif;
-    /* font-family: 'Dancing Script', cursive; */
     font-family: 'Libre Baskerville', serif;
-    /* font-family: 'Meddon', cursive; */
     font-family: 'Ovo', serif;
-    /* font-family: 'Parisienne', cursive;
-    font-family: 'Pinyon Script', cursive;
-    font-family: 'Rouge Script', cursive; */
 
     background-color: #F1D4D4;
     
     height: auto;
-    width: 100%; 
+    width: auto; 
     margin: auto;
-   
+
 }
 
 ul {
     list-style-type: none;
     
 }
+
 li {
     display: inline;
     vertical-align: center;
     padding: 4%;
 }
+
+header {
+    margin: 1%;
+    padding: 1%;
+}
+
 li.navbar {
     font-family: 'Alex Brush', cursive;
 }
+
 nav {
     padding: 1%;
-    margin: 0;
+    margin: auto;
     background-color: #484C7F;
     opacity: 0.5;
-    /* top: 10px; */
     text-align: center;
-    /* height: 10px; */
     position: fixed;
-
     font-size: xx-large;
-    
     width: 100%;
+}
+
+nav a {
+    text-decoration: wavy;
 }
 
 
@@ -65,17 +57,18 @@ h1 {
     text-align: center;
 
 }
+
 h2 {
     font-family: 'Parisienne', cursive;
     font-weight: 800;
     margin: 0.5%;
     padding: 1%;
-    /* background-color: #F1D4D4 ; */
     font-size: xx-large;
     text-align: center;
     border-radius: 20%;
     text-decoration-line: wavy;
 }
+
 h3 {
     font-family: 'Rouge Script', cursive; 
     margin: 1%;
@@ -85,12 +78,14 @@ h3 {
     text-align: center;
     border-radius: 10%;
 }
+
 img {
     padding: 1.5%;
     margin: 1.5%;
     image-rendering: auto;
     align-self: center;
 }
+
 .picturecolumn1of2 {
     float: right;
     margin: 10px;
@@ -100,6 +95,7 @@ img {
     text-align: right;
     
 }
+
 h2#interests {
     text-align: center;
     vertical-align: center;
@@ -127,9 +123,11 @@ p {
     margin: 4%;
     margin-bottom: 3%;
 }
+
 #divheadshot {
     padding-bottom: 5%;
 }
+
 #aboutmarina {
     text-align: left;
 }
@@ -145,6 +143,7 @@ p {
     margin: 1%;
     margin-bottom: 3%;
 }
+
 #testimony {
     background-color: #DDB6C6;
     text-align: right;
@@ -153,17 +152,19 @@ p {
     margin: 3%;
     padding: 4%;
 }
+
 #salvation {
     text-align: right;
     padding-right: 4%;
 }
+
 #picturecollage {
     clear: both;
     margin: 2%;
-    padding-bottom: 2%;
+    padding: 2%;
+    height: 100%;
     /* border: 2px solid #AC8DAF;
     border-radius: 15%; */
-    height: 100%;
 }
 
 .favthings {
@@ -173,10 +174,12 @@ p {
     padding: 1%;
     margin: 2%;
 }
+
 #artistry {
     margin: 3%;
     padding-top: 5%;
 }
+
 .hobbiesdecor {
     padding: 1%;
     margin: 1%;
@@ -186,14 +189,17 @@ p {
     text-align: center;
     
 }
+
 #mary-martha {
     background-color: #DDB6C6;
     border: 2px solid #AC8DAF;
 
 }
+
 #flourish {
     font-size: large;
 }
+
 .hobbiescolumn1of3, .hobbiescolumn2of3, .hobbiescolumn3of3 {
     float: left;
     margin: 10px;
@@ -201,6 +207,7 @@ p {
     padding: 1.5%;
     vertical-align: text-bottom;
 }
+
 .hobbies {
     
     padding: 1%;
@@ -211,6 +218,7 @@ p {
 ul.hobbies {
     list-style-type: disc;
 }
+
 #gardening {
     text-align: center;
     float: left;
@@ -225,18 +233,15 @@ ul.hobbies {
     border: 2px solid #484C7F;
     border-radius: 10%;
 }
+
 #song a:visited {
     color: #AC8DAF;
 }
+
 #song a:hover {
     color: #484C7F;
 }
 
-
-/* #guitar {
-    margin: 2%;
-    padding: 2%;
-} */
 .gemcolumn1of2, .gemcolumn2of2 {
     float: right;
     margin: 10px;
@@ -244,15 +249,15 @@ ul.hobbies {
     padding: 1.5%;
     
 }
+
 #bits-bobs {
     margin: 2%;
     padding: 2%;
     border: 2px dashed #AC8DAF;
     border-radius: 10%;
     
-    
-    
 }
+
 #decorating {
     margin: 2%;
     padding: 2%;
@@ -260,12 +265,6 @@ ul.hobbies {
     border: 2px solid #484C7F;
     border-radius: 10%;
 }
-
-/* .encourage {
-    margin: 5%;
-    padding: 2%;
-    float: left;
-} */
 
 #biblestudywords {
     float: left;
@@ -277,6 +276,7 @@ ul.hobbies {
     padding: 3%;
 
 }
+
 #jewelry-making {
     margin: 2%;
     padding: 2%;
@@ -284,15 +284,14 @@ ul.hobbies {
     border-radius: 10%;
     clear: both;
 }
+
 #jewelrylink a:visited {
     color: #AC8DAF;
 }
+
 #jewelrylink a:hover {
     color: #484C7F;
 }
-/* #finalbit {
-    float: left;
-} */
 
 .conclusion {
     font-family: 'Arapey', serif;
@@ -303,6 +302,7 @@ ul.hobbies {
     float: left;
 
 }
+
 footer {
     
     background-color: #484C7F;
@@ -310,20 +310,22 @@ footer {
     text-align: center;
     
 }
+
 .footer {
     clear: both;
     bottom: 0;
-    
     height: 2.5rem;
     margin: 1%;
     padding: 1%;
 
 }
+
 ul.footer {
     list-style-type: none;
     padding: 3%;
     
 }
+
 li.footer {
     display: inline;
     vertical-align: center;
@@ -337,9 +339,11 @@ a:link {
 a:visited {
     color: #AC8DAF;
 }
+
 a:hover {
     color: #F1D4D4;
 }
+
 a:active {
     color: #F1D4D4;
 }
@@ -356,69 +360,6 @@ a:active {
 
 
 
-
-
-
-
-
-/* .imgcenter {
-    float: inline-end;
-    min-width: 20%;
-    max-width: 45%;
-} */
-/* adding img before . messes it up?? */
-
-/* .favthings {
-    border: 2px thin #AC8DAF;
-    border-radius: 32%;
-} */
-
-
-
-
-
-
-
-
-
-
-/* 
-#lifestory {
-
-}
-
-#intro {
-
-}
-
-#headshot {
-
-}
-
-
-
-#JesusRocks {
-
-}
-
-#addy&marina {
-
-}
-
-
-#PromQueen {
-
-}
-
-#Teddy {
-
-}
-
-#Yosemite {
-
-}
-
-#Mom&Daughter {
 
 
 
