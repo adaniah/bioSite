@@ -47,7 +47,7 @@ nav {
 }
 
 nav a {
-    text-shadow: 2px 2px 0px #000000;
+    text-shadow: 3px 2px 1px #000000;
 }
 
 
@@ -66,7 +66,7 @@ h2 {
     font-size: xx-large;
     text-align: center;
     border-radius: 20%;
-    text-decoration-line: wavy;
+    margin-top: 100px;
 }
 
 h3 {
