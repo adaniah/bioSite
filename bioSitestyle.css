@@ -29,6 +29,7 @@ li {
 header {
     margin: 1%;
     padding: 1%;
+    padding-top: 8em;
 }
 
 li.navbar {
@@ -47,7 +48,7 @@ nav {
 }
 
 nav a {
-    text-shadow: 3px 2px 1px #000000;
+    text-shadow: 2px 1px .5px white;
 }
 
 
